@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+
+<body>
+
+<h1>JavaScript Fetch API</h1>
+
+<h2>The fetch() Method. Still Testing!! Yet again 123456789..!</h2>
+
+<p id="demo">Fetch a file to change this text. Still testing!!</p>
+
+
+<script>
+
+fetch('/api/test/')
+
+.then(x => x.text())
+
+.then(y => document.getElementById("demo").innerHTML = y);
+
+</script>
+
+
+
+
+
+</body>
+
+</html>
